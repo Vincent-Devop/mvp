@@ -1,4 +1,4 @@
- # PRINCE BENJA DESIGNS — Travel & Retail Platform
+# PRINCE BENJA DESIGNS — Travel & Retail Platform
 
 React / Express / tRPC / Drizzle starter configured for Neon PostgreSQL.
 
