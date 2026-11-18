@@ -11,10 +11,10 @@ import { getWhatsAppUrl } from "@/lib/catalog";
 import { PB_LOGO_SRC } from "@/lib/brand";
 
 const categoryTiles = [
-  { title: "Suitcases & trolleys", kicker: "Make room for the journey", href: "/categories/suitcases", slug: "suitcases", image: "/manus-storage/async-images/31pfdlJIO28hAMAiPMYI3b/image-1.webp" },
-  { title: "Travel duffels", kicker: "The easy getaway", href: "/categories/duffel-bags", slug: "duffel-bags", image: "/manus-storage/async-images/31pfdlJIO28hAMAiPMYI3b/image-2.webp" },
-  { title: "Travel backpacks", kicker: "Everyday, taken further", href: "/categories/backpacks", slug: "backpacks", image: "/manus-storage/async-images/31pfdlJIO28hAMAiPMYI3b/image-3.webp" },
-  { title: "Travel accessories", kicker: "The little things, considered", href: "/categories/travel-accessories", slug: "travel-accessories", image: "/manus-storage/async-images/31pfdlJIO28hAMAiPMYI3b/image-4.webp" },
+  { title: "Suitcases & trolleys", kicker: "Make room for the journey", href: "/categories/suitcases", slug: "suitcases", image: "/images/suitcases-01.webp" },
+  { title: "Travel duffels", kicker: "The easy getaway", href: "/categories/duffel-bags", slug: "duffel-bags", image: "/images/duffel-bags-17.webp" },
+  { title: "Travel backpacks", kicker: "Everyday, taken further", href: "/categories/backpacks", slug: "backpacks", image: "/images/backpacks-25.webp" },
+  { title: "Travel accessories", kicker: "The little things, considered", href: "/categories/travel-accessories", slug: "travel-accessories", image: "/images/travel-accessories-49.webp" },
 ];
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
   return <StorefrontLayout>
     <main>
       <section className="hero-editorial">
-        <div className="hero-image"><img src="/manus-storage/async-images/31pfdlJIO28hAMAiPMYI3b/image-5.webp" alt="Travel bags set beside a light-filled lodge terrace" /></div>
+        <div className="hero-image"><img src="/images/suitcases-02.webp" alt="Travel bags set beside a light-filled lodge terrace" /></div>
         <div className="hero-overlay" />
         <div className="hero-copy">
           <div className="eyebrow hero-eyebrow"><span /> Nairobi · Made for the move</div>
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       <section className="editorial-split">
-        <div className="editorial-image"><img src="/manus-storage/async-images/31pfdlJIO28hAMAiPMYI3b/image-2.webp" alt="A cognac weekender bag styled in warm natural light" loading="lazy" /><span className="editorial-image-caption">A little room for the unexpected</span></div>
+        <div className="editorial-image"><img src="/images/duffel-bags-17.webp" alt="A cognac weekender bag styled in warm natural light" loading="lazy" /><span className="editorial-image-caption">A little room for the unexpected</span></div>
         <div className="editorial-copy"><span className="eyebrow">Made for your next move</span><h2>Less about<br />the luggage.<br /><em>More about where.</em></h2><p>Good travel gear earns its place. We bring together considered silhouettes and dependable everyday utility, ready for the plans you make and the ones that find you.</p><Link href="/about" className="text-link">The PRINCE BENJA story <ArrowRight size={15} /></Link><div className="editorial-stamp"><img src={PB_LOGO_SRC} alt=""/><small>GO WELL.<br />COME BACK<br />WITH STORIES.</small></div></div>
       </section>
 
