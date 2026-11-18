@@ -692,3 +692,26 @@ a { color: inherit; }
 
 /* Test-only Neon order simulation: no gateway call, payment capture or stock reservation */
 .payment-integration-status{display:grid;gap:5px;padding:13px 15px;margin-top:13px;border:1px solid #d9d2ff;border-left:3px solid #3924bd;background:#f7f5ff;color:#433a70}.payment-integration-status strong{font-size:13px;color:#25145c}.payment-integration-status span{font-size:12px;line-height:1.6;color:#6f6987}.checkout-simulation-action{display:grid;gap:8px}.checkout-simulation-action .checkout-submit{min-height:52px;padding:10px 14px;line-height:1.35;white-space:normal}.checkout-simulation-action>small{color:#716b87;text-align:center;font-size:12px;line-height:1.55}.checkout-simulation-action button:disabled{opacity:.55;cursor:not-allowed}.demo-preview-notice{border-color:#cfc7ff;background:#f6f4ff;color:#51477a}.demo-preview-notice strong{color:#28177c}
+
+
+/* Product photography: show the complete item without cropping */
+.product-card-image-wrap,
+.product-card-image-link,
+.pdp-main-image,
+.pdp-image-grid img,
+.cart-line-image {
+  background: #f7f6f2;
+}
+.product-card-image {
+  object-fit: contain;
+  object-position: center;
+}
+.product-card:hover .product-card-image {
+  transform: none;
+}
+.pdp-main-image img,
+.pdp-image-grid img,
+.cart-line-image img {
+  object-fit: contain;
+  object-position: center;
+}
